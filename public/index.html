@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Primivant | Custom software, web and mobile apps</title>
+<meta name="description" content="Primivant is a software studio in Greece. We design and build custom web apps, mobile apps and internal tools for businesses. Email hello@primivant.gr.">
+<link rel="canonical" href="https://primivant.gr/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Primivant">
+<meta property="og:url" content="https://primivant.gr/">
+<meta property="og:title" content="Primivant | Custom software, web and mobile apps">
+<meta property="og:description" content="A software studio in Greece. We design and build web apps, mobile apps and internal tools for businesses.">
+<meta property="og:image" content="https://primivant.gr/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Primivant logo above the line: Software of all shapes and sizes.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="theme-color" content="#EFF5F5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A1C22" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+<link rel="preload" href="https://fonts.bunny.net/sora/files/sora-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://primivant.gr/#organization",
+      "name": "Primivant",
+      "url": "https://primivant.gr/",
+      "logo": "https://primivant.gr/icon-512.png",
+      "email": "hello@primivant.gr",
+      "description": "Software studio that designs and builds custom web apps, mobile apps and internal tools for businesses.",
+      "foundingDate": "2026",
+      "address": { "@type": "PostalAddress", "addressCountry": "GR" },
+      "knowsAbout": [
+        "Custom software development",
+        "Web application development",
+        "Mobile app development",
+        "Business process automation",
+        "Software integration"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://primivant.gr/#website",
+      "url": "https://primivant.gr/",
+      "name": "Primivant",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://primivant.gr/#organization" }
+    }
+  ]
+}
+</script>
+
+<style>
+/* Sora, the brand typeface (SIL Open Font License), served by Bunny Fonts: EU-hosted, no cookies, no IP logging. */
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.bunny.net/sora/files/sora-latin-400-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.bunny.net/sora/files/sora-latin-600-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* Brand palette (logo kit v1) */
+  --ink: #0A1C22;
+  --paper: #EFF5F5;
+  --petrol: #0E6E85;
+  --petrol-light: #4CC9E0;
+
+  --bg: var(--paper);
+  --fg: var(--ink);
+  --muted: #47606A;
+  --line: #CFDDE0;
+  --accent: var(--petrol);
+
+  --font: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --gutter: clamp(1.25rem, 6vw, 4rem);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--ink);
+    --fg: var(--paper);
+    --muted: #9DB3B9;
+    --line: #1C343C;
+    --accent: var(--petrol-light);
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, p { margin: 0; }
+a { color: inherit; }
+
+::selection { background: var(--accent); color: var(--bg); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 74rem;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+main {
+  display: grid;
+  align-items: center;
+}
+main .wrap { padding-block: clamp(4rem, 14vh, 9rem); }
+
+.logo { color: var(--fg); }
+.logo svg {
+  display: block;
+  width: clamp(14rem, 46vw, 28rem);
+  height: auto;
+}
+.sq { fill: var(--accent); }
+
+.lead {
+  max-width: 30em;
+  margin-top: clamp(1.75rem, 4.5vw, 3rem);
+  color: var(--muted);
+  font-size: clamp(1.25rem, 2.2vw, 1.625rem);
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+
+.email {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -.02em;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: .3em;
+  transition: color .15s ease;
+}
+.email:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="wrap">
+    <h1 class="logo">
+      <span class="sr">Primivant</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.8 106" width="448" height="101" aria-hidden="true" focusable="false">
+        <g transform="translate(0 86) scale(.1)">
+          <path d="M79 200V-543H189V-309L172 -310Q176 -393 206.5 -449.0Q237 -505 288.0 -532.5Q339 -560 402 -560Q460 -560 506.5 -539.0Q553 -518 586.5 -480.0Q620 -442 638.0 -391.5Q656 -341 656 -283V-262Q656 -203 638.5 -152.5Q621 -102 587.5 -63.5Q554 -25 507.0 -3.5Q460 18 402 18Q341 18 290.5 -7.5Q240 -33 209.0 -86.5Q178 -140 174 -225L218 -158V200ZM367 -99Q412 -99 445.5 -121.0Q479 -143 498.0 -182.5Q517 -222 517 -272Q517 -324 498.0 -362.0Q479 -400 445.5 -421.5Q412 -443 367 -443Q326 -443 291.5 -425.0Q257 -407 235.5 -372.0Q214 -337 214 -288V-248Q214 -201 236.0 -168.0Q258 -135 293.0 -117.0Q328 -99 367 -99ZM743 0V-543H853V-313H850Q850 -430 900.0 -490.0Q950 -550 1047 -550H1067V-429H1029Q959 -429 920.5 -391.5Q882 -354 882 -283V0ZM1151 0V-543H1290V0ZM1075 -439V-543H1290V-439ZM1415 0V-543H1525V-310H1515Q1515 -392 1536.0 -447.5Q1557 -503 1598.5 -531.5Q1640 -560 1702 -560H1708Q1771 -560 1812.5 -531.5Q1854 -503 1874.5 -447.5Q1895 -392 1895 -310H1860Q1860 -392 1881.5 -447.5Q1903 -503 1944.5 -531.5Q1986 -560 2048 -560H2054Q2117 -560 2159.0 -531.5Q2201 -503 2222.5 -447.5Q2244 -392 2244 -310V0H2105V-323Q2105 -374 2079.0 -404.5Q2053 -435 2005 -435Q1957 -435 1928.0 -403.5Q1899 -372 1899 -319V0H1760V-323Q1760 -374 1734.0 -404.5Q1708 -435 1660 -435Q1612 -435 1583.0 -403.5Q1554 -372 1554 -319V0ZM2384 0V-543H2523V0ZM2308 -439V-543H2523V-439ZM2435 -608Q2394 -608 2374.5 -629.5Q2355 -651 2355 -684Q2355 -717 2374.5 -738.0Q2394 -759 2435 -759Q2476 -759 2495.0 -738.0Q2514 -717 2514 -684Q2514 -651 2495.0 -629.5Q2476 -608 2435 -608ZM2757 0 2587 -543H2730L2893 0ZM2798 0V-114H2945V0ZM2853 0 2993 -543H3127L2980 0ZM3519 0V-161H3496V-340Q3496 -387 3473.0 -410.0Q3450 -433 3402 -433Q3377 -433 3342.0 -432.0Q3307 -431 3271.5 -429.5Q3236 -428 3208 -426V-544Q3231 -546 3260.0 -548.0Q3289 -550 3319.5 -550.5Q3350 -551 3377 -551Q3461 -551 3516.5 -529.0Q3572 -507 3600.5 -460.0Q3629 -413 3629 -337V0ZM3344 14Q3285 14 3240.5 -7.0Q3196 -28 3171.5 -67.0Q3147 -106 3147 -161Q3147 -221 3176.5 -259.0Q3206 -297 3259.5 -316.0Q3313 -335 3385 -335H3511V-252H3383Q3335 -252 3309.5 -228.5Q3284 -205 3284 -168Q3284 -131 3309.5 -108.0Q3335 -85 3383 -85Q3412 -85 3436.5 -95.5Q3461 -106 3477.5 -131.5Q3494 -157 3496 -201L3530 -162Q3525 -105 3502.5 -66.0Q3480 -27 3440.5 -6.5Q3401 14 3344 14ZM3743 0V-543H3853V-310H3843Q3843 -393 3865.0 -448.5Q3887 -504 3930.5 -532.0Q3974 -560 4039 -560H4045Q4142 -560 4192.0 -497.5Q4242 -435 4242 -311V0H4103V-323Q4103 -373 4074.5 -404.0Q4046 -435 3996 -435Q3945 -435 3913.5 -403.5Q3882 -372 3882 -319V0ZM4592 7Q4517 7 4468.5 -12.5Q4420 -32 4396.0 -78.5Q4372 -125 4372 -204L4373 -696H4503L4502 -195Q4502 -155 4523.5 -133.5Q4545 -112 4585 -112H4670V7ZM4286 -441V-543H4670V-441Z" fill="currentColor"/>
+          <rect class="sq" x="1105.5" y="-860" width="230" height="230" rx="58"/>
+        </g>
+      </svg>
+    </h1>
+    <p class="lead">Software of all shapes and sizes.</p>
+    <a class="email" href="mailto:hello@primivant.gr">hello@primivant.gr</a>
+  </div>
+</main>
+
+</body>
+</html>
